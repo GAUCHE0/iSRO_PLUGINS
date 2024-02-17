@@ -8,7 +8,7 @@ import struct
 import time
 import subprocess
 
-pVersion = '1.0.0'
+pVersion = '2.0.0'
 pName = 'iSRO_ItemManager'
 pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_ItemManager.py'
 
@@ -118,7 +118,7 @@ btnKaydet = QtBind.createButton(gui_, 'btnKaydet_clicked', "  KAYDET  ", _x + 30
 btnYukle = QtBind.createButton(gui_, 'btnYukle_clicked', "  YUKLE  ", _x + 390, _y + 155)
 lblProfil = QtBind.createLabel(gui_, "CONFIG PROFIL ISMI :", _x + 305, _y + 182)
 tbxProfil = QtBind.createLineEdit(gui_, "", _x + 415, _y + 179, 110, 19)
-btnhakkinda = QtBind.createButton(gui_,'btnhakkinda_clicked',"         HAKKINDA         ",610,290)
+btnhakkinda = QtBind.createButton(gui_,'btnhakkinda_clicked',"         HAKKINDA         +++++",610,290)
 
 # ______________________________ MOTHODLAR ______________________________ #
 def getPath():
