@@ -8,7 +8,7 @@ import urllib.request
 import os
 
 pName = 'iSRO_GeriYükleyici'
-pUrl = ''
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_GeriY%C3%BCkleyici.py'
 pVersion = '1.0.0'
 
 path = get_config_dir() + 'Backup'
