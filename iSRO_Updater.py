@@ -7,7 +7,7 @@ import shutil
 
 pName = 'iSRO_Updater'
 pVersion = '1.0.0'
-pUrl = ''
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_Updater.py'
 
 # ______________________________ YÜKLEMELER ______________________________ #
 
