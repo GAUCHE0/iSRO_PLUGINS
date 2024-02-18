@@ -8,7 +8,7 @@ import os
 
 pName = 'iLocker'
 pVersion = '1.0.0'
-pUrl = ''
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iLocker.py'
 
 gui = QtBind.init(__name__,pName)
 
