@@ -7,7 +7,7 @@ import os
 
 pName = 'iChat'
 pVersion = '1.0.0'
-pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_Chat.py"
+pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iChat.py"
 # ______________________________ KURULUM ______________________________ #
 # KURESELLER
 MESSAGES_DELAY = 10000
