@@ -16,7 +16,7 @@ from re import search
 
 pName = 'iController'
 pVersion = '1.0.0'
-pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_Controller.py'
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iController.py'
 
 COMMANDS_CODES = {
 	'ZERKPOT': ['ZERKPOT'],
