@@ -3,7 +3,7 @@ import QtBind
 import json
 import os
 
-pName = 'iSRO_PacketTooL'
+pName = 'iPacketTooL'
 pVersion = '1.0.0'
 pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_PacketTool.py"
 # ______________________________ KURULUM ______________________________ #
@@ -46,7 +46,7 @@ btnRemOpcode = QtBind.createButton(gui,'btnRemOpcode_clicked',"     SIL     ",_x
 lblNpcs = QtBind.createLabel(gui,"YAKINDAKI NPCLER :",6,85)
 btnNpcs = QtBind.createButton(gui,'btnNpcs_clicked',"  LISTEYI YENILE  ",6,202)
 lstNpcs = QtBind.createList(gui,6,101,400,100)
-lblLog = QtBind.createLabel(gui,"iSRO_PacketTool:\n * GAUCHE TARAFINDAN DUZENLENMISTIR. \n * FEEDBACK SISTEMLI BIR YAZILIMDIR. \n * HATA VE ONERI BILDIRIMLERINIZI BANA ULASTIRABILIRSINIZ.",6,230)
+lblLog = QtBind.createLabel(gui,"iPacketTool:\n * GAUCHE TARAFINDAN DUZENLENMISTIR. \n * FEEDBACK SISTEMLI BIR YAZILIMDIR. \n * HATA VE ONERI BILDIRIMLERINIZI BANA ULASTIRABILIRSINIZ.",6,230)
 # ______________________________ METHODLAR ______________________________ #
 # CONFIG DOSYA YOLUNDAN DEVAM ET
 def getConfig():
