@@ -5,7 +5,7 @@ import re
 import os
 import shutil
 
-pName = 'iSRO_Updater'
+pName = 'iUpdater'
 pVersion = '1.0.0'
 pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_Updater.py'
 
