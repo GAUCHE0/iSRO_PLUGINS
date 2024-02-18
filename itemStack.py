@@ -39,7 +39,7 @@ store_take_gold_guild_storage_amount_widget_default = '0'
 
 pVersion = '1.0.0'
 pName = 'iItemStack'
-pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_ItemStack.py'
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/itemStack.py'
 
 gui = QtBind.init(__name__, pName)
 
