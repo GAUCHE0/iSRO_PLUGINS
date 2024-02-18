@@ -8,7 +8,7 @@ import urllib.request
 import os
 
 pName = 'iBackup'
-pUrl = 'https://github.com/GAUCHE0/iSRO_PLUGINS/blob/main/iBackup.py'
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iBackup.py'
 pVersion = '1.0.0'
 
 path = get_config_dir() + 'Backup'
