@@ -5,7 +5,7 @@ import os
 
 pName = 'iPacketTooL'
 pVersion = '1.0.0'
-pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_PacketTool.py"
+pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iPacketTool.py"
 # ______________________________ KURULUM ______________________________ #
 # KULLANICI ARAYUZU
 gui = QtBind.init(__name__,pName)
