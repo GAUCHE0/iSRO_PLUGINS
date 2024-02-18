@@ -10,7 +10,7 @@ import subprocess
 
 pVersion = '1.0.0'
 pName = 'iItemManager'
-pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_ItemManager.py'
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iItemManager.py'
 
 # KURESELLER
 character_data = None
