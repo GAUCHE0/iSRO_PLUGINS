@@ -15,7 +15,7 @@ import subprocess
 from re import search
 
 pName = 'iController'
-pVersion = '1.0.0'
+pVersion = '1.0.1'
 pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iController.py'
 
 COMMANDS_CODES = {
@@ -1609,6 +1609,10 @@ def inject_teleport(source,destination):
 		log('Plugin: NPC not found. Wrong NPC name or servername')
 	else:
 		log('Plugin: Teleport data not found. Wrong teleport name or servername')
+
+def Inject_SelectTarget(targetUID):
+	p = struct.pack('<I',targetUID)
+	inject_joymax(0x7045,p,False)
 # ______________________________ ETKINLIKLER ______________________________ #
 # PLUGIN BAGLANTISI
 def connected():
