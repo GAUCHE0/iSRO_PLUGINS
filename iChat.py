@@ -6,7 +6,7 @@ import json
 import os
 
 pName = 'iChat'
-pVersion = '2.0.0'
+pVersion = '3.0.0'
 pUrl = "https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iChat.py"
 # ______________________________ KURULUM ______________________________ #
 # KURESELLER
