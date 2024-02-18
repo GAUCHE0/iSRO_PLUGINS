@@ -11,7 +11,7 @@ import subprocess
 
 pName = 'iAcademy'
 pVersion = '1.0.0'
-pUrl = ''
+pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iAcademy.py'
 
 SEQUENCE_DEFAULT_NUMBER = 30000
 NOTIFICATION_SOUND_PATH = 'c:\\Windows\\Media\\chimes.wav'
