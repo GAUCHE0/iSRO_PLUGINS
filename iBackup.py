@@ -7,8 +7,8 @@ import json
 import urllib.request
 import os
 
-pName = 'iSRO_GeriYükleyici'
-pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iSRO_GeriY%C3%BCkleyici.py'
+pName = 'iBackup'
+pUrl = ''
 pVersion = '1.0.0'
 
 path = get_config_dir() + 'Backup'
@@ -63,7 +63,7 @@ def button_load():
 	Loaded = True
 	AppendProfiles()
 def btnhakkinda_clicked():
-	log('\n\niSRO_GeriYükleyici:\n * GAUCHE TARAFINDAN DUZENLENMISTIR. \n * FEEDBACK SISTEMLI BIR YAZILIMDIR. \n * HATA VE ONERI BILDIRIMLERINIZI BANA ULASTIRABILIRSINIZ.\n\n     # BU PLUGINE ILE CHARLARIN .JSON UZANTILI CONFIG DOSYALARINDA ZARAR MEYDANA GELDİĞİNDE DAHA ÖNCEDEN PHBOTUN KENDİ ALDIĞI YEDEK CONFIG DOSYASINDAN YÜKLEME YAPAR.')
+	log('\n\niBackup:\n * GAUCHE TARAFINDAN DUZENLENMISTIR. \n * FEEDBACK SISTEMLI BIR YAZILIMDIR. \n * HATA VE ONERI BILDIRIMLERINIZI BANA ULASTIRABILIRSINIZ.\n\n     # BU PLUGINE ILE CHARLARIN .JSON UZANTILI CONFIG DOSYALARINDA ZARAR MEYDANA GELDİĞİNDE DAHA ÖNCEDEN PHBOTUN KENDİ ALDIĞI YEDEK CONFIG DOSYASINDAN YÜKLEME YAPAR.')
 def button_restore():
 	SelectedProfile = QtBind.text(gui,lstProfiles)
 	SelectedDate = QtBind.text(gui,ProfileDates).split(' ')[0]
