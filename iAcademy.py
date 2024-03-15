@@ -10,7 +10,7 @@ import os
 import subprocess
 
 pName = 'iAcademy'
-pVersion = '1.0.0'
+pVersion = '1.0.1'
 pUrl = 'https://raw.githubusercontent.com/GAUCHE0/iSRO_PLUGINS/main/iAcademy.py'
 
 SEQUENCE_DEFAULT_NUMBER = 30000
@@ -129,7 +129,7 @@ def loadConfigs(fileName=""):
 		if "nick" in data:
 			QtBind.setText(gui,tbxNickname,data["nick"])
 		if "aralik" in data and data["aralik"]:
-			QtBind.setText(gui,tbxSequence,data["Sequence"])
+			QtBind.setText(gui,tbxSequence,data["aralik"])
 		if "irk" in data:
 			QtBind.setText(gui,cmbxRace,data["irk"])
 
